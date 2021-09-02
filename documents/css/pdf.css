@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    height: 842px;
+    width: 595px;
+    /* background-color: rgb(224, 224, 224); */
+    margin: 0;
+}
+
+.container {
+    height: 788px;
+    width: inherit;
+    padding: 25px 33px;
+}
+
+#cover-image {
+    position: relative;
+    left: -170px;
+    top: 50px;
+    height: 500px;
+}
+
+#title-text {
+    position: absolute;
+    top: 210px;
+    left: 280px;
+    margin: 0;
+
+
+}
+
+#title-text h1 {
+    width: 100px;
+    margin: 0;
+}
+
+.orange-block {
+    background-color: #F05146;
+    box-sizing: border-box;
+    margin: 0;
+    height: 8px;
+    width: 265px;
+    position: absolute;
+    top: 450px;
+    left: 280px;
+}
+
+.cover-info-text {
+    position: absolute;
+    top: 480px;
+    left: 280px;
+}
+
+.cover-info-text h2 {
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.container h1 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.launch {
+    position: relative;
+    top: 60px;
+}
+
+.launch p {
+    position: relative;
+    top: 20px;
+    width: 360px;
+    font-size: 16px;
+    font-style: italic;
+    color: #546681,
+        100%;
+}
+
+.investment {
+    position: relative;
+    top: 150px;
+}
+
+.investment p {
+    position: relative;
+    top: 20px;
+    width: 360px;
+    font-size: 16px;
+    font-style: italic;
+    color: #546681,
+        100%;
+}
+
+#l-index {
+    position: absolute;
+    left: 440px;
+    top: 30px;
+
+}
+
+#i-index {
+    position: absolute;
+    left: 440px;
+    top: 35px;
+}
+
+canvas {
+    position: absolute;
+    top: -40px;
+    left: -35px;
+    height: 100px;
+}
+
+.profiles {
+    position: relative;
+    top: 240px;
+    display: flex;
+    flex: row;
+}
+
+.functional {
+    height: 300px;
+    width: 264px;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+.info-text {
+    font-size: 14px;
+    padding: 0 12px;
+    margin-bottom: 15px;
+
+}
+
+.maturity {
+    height: 300px;
+    width: 264px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+h2 span,
+h3 span {
+    color: #F05146;
+}
+
+.functional p,
+.maturity p {
+    font-size: 9px;
+
+}
+
+.progress-bar {
+    margin: 0 auto;
+    margin-bottom: 6px;
+    width: 200px;
+    height: 18px;
+    background-color: #eee;
+    border-radius: 20px
+}
+
+.progress-done {
+    width: 0;
+    background: #99B9FF;
+    height: 18px;
+    border-radius: 20px;
+    display: flex;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease 0.3;
+}
+
+#ul-strength li,
+#ul-recommendation li {
+    color: rgb(87, 87, 87);
+    font-weight: 500;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 10px;
+
+}
+
+.cover-footer {
+    width: inherit;
+    text-align: center;
+    color: #546681;
+    font-size: 12px;
+
+
+}
+
+.cover-footer p img {
+    position: relative;
+    top: 11px;
+}
+
+.footer {
+    height: 54px;
+    width: inherit;
+    padding: 0 33px;
+    background: #5479F7;
+}
+
+.footer-logo {
+    height: 35.24px;
+    width: 74.89px;
+    position: relative;
+    top: 7px;
+}
+
+.footer-cta {
+    float: right;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    top: 7px;
+}
+
+
+
+.bars {
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+
+
+}
+
+.bars li {
+    display: table-cell;
+    width: 50px;
+    height: 150px;
+    position: relative;
+}
+.bars .bar{
+    overflow: visible;
+}
+.bars .bar p{
+    position: relative;
+    top: -10px;    
+}
+
+.bars span {
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+    left: 10px;
+    text-align: center;
+}
+
+.bars .bar {
+    display: block;
+    overflow: visible !important;
+    width: 25px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 25px;
+    text-align: center;
+}
+
+#launch-country {
+    position: relative;
+    left: -100px;
+}
+
+#invest-country {
+    position: relative;
+    left: -100px;
+}
+
+#launch-text {
+    position: relative;
+    left: 240px;
+    top: -80px;
+}
+
+.chart-2 {
+    position: relative;
+    top: 130px;
+}
+
+#invest-text {
+    position: relative;
+    left: 240px;
+    top: 40px;
+
+}
+
+.labels {
+    color: grey;
+    font-size: 12px;
+    width: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.label-1 {
+    position: absolute;
+    top: 1900px;
+    left: 60px;
+
+}
+
+.label-2 {
+    position: absolute;
+    top: 1900px;
+    left: 170px;
+
+}
+
+.label-3 {
+    position: absolute;
+    top: 190px;
+    left: 30px;
+}
+
+.label-4 {
+    position: absolute;
+    top: 190px;
+    left: 140px;
+}
+
+.legend {
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+.legend span {
+    position: relative;
+    top: -10px;
+    left: 20px;
+}
+
+.startup-legend,
+.peer-legend {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+
+.startupbar,
+.startup-legend {
+    background: #ff7a67;
+}
+
+.peers,
+.peer-legend {
+    background: #0289bd;
+}
+
+
+.bars .bar:before {
+    color: black;
+    font-weight: 500;
+    font-size: 10px;
+    content: attr(data-percentage);
+    position: relative;
+    bottom: 20px;
+}
